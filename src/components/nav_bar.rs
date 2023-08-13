@@ -5,16 +5,19 @@ use dioxus_router::prelude::*;
 #[allow(non_snake_case)]
 pub fn NavBar(cx: Scope) -> Element {
   render! {
-      nav {
-          ul {
-              li {
-                  Link { to: Route::Home {}, "Home" }
-              }
-              li {
-                  Link { to: Route::About {}, "About" }
-              }
-          }
+    Outlet::<Route> {}
+    nav {
+      ul {
+        li {
+          Link { to: Route::Home {}, "Home" }
+        }
+        li {
+          Link { to: Route::About {}, "About" }
+        }
+        li {
+          Link { to: Route::Colophon {}, "Colophon" }
+        }
       }
-      Outlet::<Route> {}
+    }
   }
 }

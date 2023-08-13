@@ -17,7 +17,7 @@ asset_dir = "public"
 [web.app]
 
 # HTML title tag content
-title = "Dallas Rust Users Meetup website using Dioxus"
+title = "Dallas Rust Users Meetup"
 
 [web.watcher]
 

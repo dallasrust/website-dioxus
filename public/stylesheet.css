@@ -1,4 +1,8 @@
-body {
-  background-color: white;
+a:visited {
   color: #b7410e;
+}
+
+body {
+  background-color: black;
+  color: #ff7518;
 }

@@ -1,4 +1,5 @@
 use crate::components::about::About;
+use crate::components::colophon::Colophon;
 use crate::components::home::Home;
 use crate::components::nav_bar::NavBar;
 use crate::components::page_not_found::PageNotFound;
@@ -12,6 +13,8 @@ pub enum Route {
   Home {},
   #[route("/about")]
   About {},
+  #[route("/colophon")]
+  Colophon {},
   #[end_layout]
   #[route("/:..route")]
   PageNotFound {
