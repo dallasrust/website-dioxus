@@ -1,3 +1,4 @@
+use crate::components::footer::Footer;
 use crate::route::Route;
 use dioxus::prelude::*;
 use dioxus_router::prelude::*;
@@ -6,5 +7,6 @@ use dioxus_router::prelude::*;
 pub fn App(cx: Scope) -> Element {
   render! {
     Router::<Route> { }
+    Footer { }
   }
 }
