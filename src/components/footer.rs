@@ -3,6 +3,8 @@ use dioxus::prelude::*;
 #[allow(non_snake_case)]
 pub fn Footer(cx: Scope) -> Element {
   render! {
+    div {
+      class: "box",
     p {
       "Copyright 2023 "
       a {
@@ -11,5 +13,6 @@ pub fn Footer(cx: Scope) -> Element {
         "Dallas Rust Users Meetup Contributors"
       }
     }
+  }
   }
 }
