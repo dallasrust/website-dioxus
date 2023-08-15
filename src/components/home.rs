@@ -4,14 +4,21 @@ use dioxus::prelude::*;
 pub fn Home(cx: Scope) -> Element {
   render! {
     div {
-      class: "box",
+      class: "app-home box",
     h1 {
-      "Home"
+      "Dallas Rust Users Meetup"
     }
     a {
       href: "https://www.meetup.com/dallasrust/",
       target: "_blank",
       "https://www.meetup.com/dallasrust/"
+    }
+    a {
+      href: "https://www.meetup.com/dallasrust/",
+      target: "_blank",
+    img {
+      src: "rustacean-flat-happy.svg",
+    }
     }
     }
   }
