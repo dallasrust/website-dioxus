@@ -33,17 +33,20 @@ body {
 
 .col-1 {
   display: grid;
-  grid-row-gap: 1rem;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .col-2 {
   display: grid;
-  grid-row-gap: 1rem;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .col-3 {
   display: grid;
-  grid-row-gap: 1rem;
+  grid-column: 1;
+  grid-row: 3;
 }
 
 .frame {
@@ -52,7 +55,7 @@ body {
   border-bottom-right-radius: 1rem;
   box-sizing: border-box;
   display: grid;
-  grid-column-gap: 0.5rem;
+  grid-column-gap: 1rem;
   grid-row-gap: 2rem;
   grid-template-columns: minmax(auto, calc(600px + 4rem));
   margin: 0 auto;
