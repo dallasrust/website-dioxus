@@ -24,8 +24,8 @@ pub fn About(cx: Scope) -> Element {
         target: "_blank",
         "Meetup group",
       },
-      " for an invitations to join our Discord meetings ",
-      "and to access our bulletin boards."
+      " to access our bulletin boards"
+      " and receive invitations to our periodic Discord meetings.",
     }
     h2 {
       "Contact"
