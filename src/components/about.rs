@@ -31,11 +31,20 @@ pub fn About(cx: Scope) -> Element {
       "Contact"
     }
     p {
-      "David Wallace Croft ",
+      a {
+        href: "https://www.croftsoft.com/people/david/",
+        target: "_blank",
+        "David Wallace Croft",
+      },
+      br { },
+      "DRUM Organizer",
+      br { },
       a {
         href: "mailto:david@croftsoft.com",
-        "<david@CroftSoft.com>"
-      }
+        "david@CroftSoft.com"
+      },
+      br { },
+      "(214) 636-3790"
     }
     }
   }

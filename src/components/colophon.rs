@@ -8,26 +8,21 @@ pub fn Colophon(cx: Scope) -> Element {
     h1 { "Colophon" }
     ul {
     p {
-      "Created using "
-      a { href: "https://dioxuslabs.com/", target: "_blank", "Dioxus" }
+      "This website was created using the Rust library ",
+      a {
+        href: "https://dioxuslabs.com/",
+        target: "_blank",
+        "Dioxus",
+      },
+      "."
     }
     p {
-      "Open source repositories for this site:"
-    ul {
-    li {
+      "The open source repository for website is hosted on GitHub:",
+    br { },
     a {
       href: "https://github.com/dallasrust/website-dioxus",
       target: "_blank",
       "https://github.com/dallasrust/website-dioxus"
-    }
-    }
-    li {
-    a {
-      href: "https://github.com/dallasrust/dallasrust.github.io",
-      target: "_blank",
-      "https://github.com/dallasrust/dallasrust.github.io"
-    }
-    }
     }
     }
     }

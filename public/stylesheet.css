@@ -58,6 +58,7 @@ body {
   grid-row-gap: 2rem;
   grid-template-columns: minmax(auto, calc(600px + 4rem));
   margin: 0 auto;
+  min-width: 16rem;
   max-width: calc(600px + 4rem);
   padding: 1rem;
 }
