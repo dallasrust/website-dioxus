@@ -17,7 +17,7 @@ pub fn Colophon(cx: Scope) -> Element {
       "."
     }
     p {
-      "The open source repository for website is hosted on GitHub:",
+      "The open source repository for this website is hosted on GitHub:",
     br { },
     a {
       href: "https://github.com/dallasrust/website-dioxus",

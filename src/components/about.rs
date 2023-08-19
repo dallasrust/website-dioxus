@@ -25,7 +25,14 @@ pub fn About(cx: Scope) -> Element {
         "Meetup group",
       },
       " to access our bulletin boards"
-      " and receive invitations to our periodic Discord meetings.",
+      " and receive invitations to our meetings."
+      " Anyone from anywhere is welcome to participate in our semimonthly "
+      a {
+        href: "https://discord.com/",
+        target: "_blank",
+        "Discord",
+      }
+      " server meetings."
     }
     h2 {
       "Contact"
