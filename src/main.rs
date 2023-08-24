@@ -1,4 +1,4 @@
-use dioxus_prototype::launch;
+use website_dioxus::launch;
 
 fn main() {
   launch();
