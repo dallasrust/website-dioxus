@@ -15,6 +15,7 @@ pub fn Home(cx: Scope) -> Element {
       target: "_blank",
       "https://www.meetup.com/dallasrust/"
     }
+    br { }
     a {
       href: "https://www.meetup.com/dallasrust/",
       target: "_blank",

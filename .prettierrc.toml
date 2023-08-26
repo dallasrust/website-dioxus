@@ -1,0 +1,9 @@
+# .prettierrc.toml
+bracketSameLine = false
+endOfLine = "lf"
+htmlWhitespaceSensitivity = "css"
+parser = "html"
+printWidth = 80
+singleAttributePerLine = true
+tabWidth = 2
+useTabs = false
