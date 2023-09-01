@@ -11,7 +11,7 @@ pub fn Footer(cx: Scope) -> Element {
       a {
         href: "https://github.com/dallasrust/website-dioxus",
         target: "_blank",
-        "Dallas Rust Users Meetup Contributors"
+        "Dallas Rust User Meetup Contributors"
       }
     }
   }

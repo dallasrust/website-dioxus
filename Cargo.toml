@@ -2,7 +2,7 @@
 authors = ["David Wallace Croft <david@croftsoft.com>"]
 # Use the categories from https://crates.io/categories
 # categories = ["category-name"]
-description = "Dallas Rust Users Meetup website using Dioxus"
+description = "Dallas Rust User Meetup website using Dioxus"
 edition = "2021"
 homepage = "https://www.dallasrust.org/"
 keywords = ["dioxus"]
@@ -11,7 +11,7 @@ name = "website-dioxus"
 publish = false
 readme = "README.md"
 repository = "https://github.com/dallasrust/website-dioxus"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.2-SNAPSHOT"
 
 [[bin]]
 name = "prerender"

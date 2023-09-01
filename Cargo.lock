@@ -1486,7 +1486,7 @@ dependencies = [
 
 [[package]]
 name = "website-dioxus"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.2-SNAPSHOT"
 dependencies = [
  "console_error_panic_hook",
  "dioxus",

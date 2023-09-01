@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/dallasrust/website-dioxus/issues"
   },
-  "description": "Dallas Rust Users Meetup website using Dioxus",
+  "description": "Dallas Rust User Meetup website using Dioxus",
   "devDependencies": {
     "http-server": "^14.1.1",
     "prettier": "3.0.2"
@@ -22,5 +22,5 @@
     "start": "npm run prerender && npm run prettier && npm run static && npm run serve",
     "static": "cp -r public/* static"
   },
-  "version": "0.0.1-SNAPSHOT"
+  "version": "0.0.2-SNAPSHOT"
 }

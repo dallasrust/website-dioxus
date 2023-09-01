@@ -9,13 +9,13 @@ pub fn About(cx: Scope) -> Element {
       "About"
     }
     p {
-      "The Dallas Rust Users Meetup (DRUM) is a ",
+      "The Dallas Rust User Meetup (DRUM) is a ",
       a {
         href: "https://www.rust-lang.org/",
         target: "_blank",
         "Rust programming language",
       }
-      " users group. ",
+      " User group. ",
     }
     p {
       "Join our ",

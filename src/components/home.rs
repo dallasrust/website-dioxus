@@ -8,7 +8,7 @@ pub fn Home(cx: Scope) -> Element {
     div {
       class: "app-home box",
     h1 {
-      "Dallas Rust Users Meetup"
+      "Dallas Rust User Meetup"
     }
     a {
       href: "https://www.meetup.com/dallasrust/",
@@ -33,7 +33,7 @@ pub fn Home(cx: Scope) -> Element {
     },
     p {
       style: "margin-top: 1rem",
-    "The Dallas Rust Users Meetup (DRUM) is seeking a location within",
+    "The Dallas Rust User Meetup (DRUM) is seeking a location within",
     " the Dallas area for our next face-to-face meeting."
     " We are looking for a site with a laptop projector."
     " If you would like to host the DRUM, please contact "

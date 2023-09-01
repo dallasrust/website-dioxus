@@ -1,4 +1,4 @@
-# Dallas Rust Users Meetup website using Dioxus
+# Dallas Rust User Meetup website using Dioxus
 
 [![MIT licensed][mit-badge]][mit-url]
 

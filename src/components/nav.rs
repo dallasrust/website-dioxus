@@ -9,7 +9,7 @@ pub fn Nav(cx: Scope) -> Element {
       class: "box",
     span {
       class: "drum",
-      "Dallas Rust Users Meetup",
+      "Dallas Rust User Meetup",
     }
     nav {
     ul {
