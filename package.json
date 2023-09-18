@@ -1,14 +1,18 @@
 {
-  "author": "David Wallace Croft <david@CroftSoft.com>",
+  "author": "Dallas Rust User Meetup Contributors",
   "bugs": {
     "url": "https://github.com/dallasrust/website-dioxus/issues"
   },
   "description": "Dallas Rust User Meetup website using Dioxus",
   "devDependencies": {
     "http-server": "^14.1.1",
-    "prettier": "3.0.2"
+    "prettier": "3.0.3",
+    "rimraf": "^5.0.1"
   },
   "homepage": "https://github.com/dallasrust/website-dioxus#readme",
+  "keywords": [
+    "Dioxus"
+  ],
   "license": "MIT",
   "name": "website-dioxus",
   "repository": {
@@ -16,11 +20,15 @@
     "url": "git+https://github.com/dallasrust/website-dioxus.git"
   },
   "scripts": {
-    "prerender": "cargo run --bin prerender --features=prerender",
-    "prettier": "prettier static --ignore-path .prettierignore --write",
-    "serve": "http-server static -o",
-    "start": "npm run prerender && npm run prettier && npm run static && npm run serve",
-    "static": "cp -r public/* static"
+    "clean": "rimraf dist",
+    "dist": "npm run clean && npm run make",
+    "format": "prettier dist --ignore-path .prettierignore --write",
+    "hydrate": "dx build --features=hydrate --release",
+    "prerender": "cargo run --bin prerender --features=prerender --release",
+    "make": "npm run hydrate && npm run prerender && npm run format",
+    "serve": "http-server dist -o",
+    "start": "dx serve --hot-reload",
+    "test": "npm run dist && npm run serve"
   },
   "version": "0.0.2-SNAPSHOT"
 }

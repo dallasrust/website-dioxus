@@ -5,8 +5,9 @@ use crate::components::page_not_found::PageNotFound;
 use crate::components::page_template::PageTemplate;
 use dioxus::prelude::*;
 use dioxus_router::prelude::*;
+use serde::{Deserialize, Serialize};
 
-#[derive(Clone, Routable)]
+#[derive(Clone, Routable, Debug, PartialEq, Serialize, Deserialize)]
 pub enum Route {
   #[layout(PageTemplate)]
   #[route("/")]
