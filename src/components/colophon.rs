@@ -17,6 +17,15 @@ pub fn Colophon(cx: Scope) -> Element {
       "."
     }
     p {
+      "Images of Ferris the Crab and Corro the Unsafe Rusturchin are from ",
+      a {
+        href: "https://www.rustacean.net/",
+        target: "_blank",
+        "Rustacean.net",
+      },
+      "."
+    }
+    p {
       "The open source repository for this website is hosted on GitHub:",
     br { },
     a {

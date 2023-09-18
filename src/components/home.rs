@@ -20,7 +20,7 @@ pub fn Home(cx: Scope) -> Element {
       href: "https://www.meetup.com/dallasrust/",
       target: "_blank",
     img {
-      src: "rustacean-flat-happy.svg",
+      src: "/rustacean-flat-happy.svg",
     }
     }
     }

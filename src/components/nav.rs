@@ -1,3 +1,4 @@
+use crate::components::animation::Animation;
 use crate::route::Route;
 use dioxus::prelude::*;
 use dioxus_router::prelude::*;
@@ -24,6 +25,7 @@ pub fn Nav(cx: Scope) -> Element {
     }
     }
     }
+    Animation { }
     }
   }
 }

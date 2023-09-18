@@ -1,4 +1,5 @@
 pub mod about;
+pub mod animation;
 pub mod app;
 pub mod colophon;
 pub mod footer;

@@ -1,7 +1,7 @@
 [application]
 asset_dir = "assets"
 default_platform = "web"
-name = "Dallas Rust User Meetup"
+name = "dioxus_website"
 out_dir = "dist"
 
 [web.app]

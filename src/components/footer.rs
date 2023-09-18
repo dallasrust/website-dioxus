@@ -5,6 +5,7 @@ pub fn Footer(cx: Scope) -> Element {
   render! {
     div {
       class: "box",
+      text_align: "center",
     p {
       dangerous_inner_html: "&copy;",
       " 2023 "
@@ -13,6 +14,10 @@ pub fn Footer(cx: Scope) -> Element {
         target: "_blank",
         "Dallas Rust User Meetup Contributors"
       }
+    }
+    img {
+      src: "/corro.svg",
+      width: "100",
     }
   }
   }
