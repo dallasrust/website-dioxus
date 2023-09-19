@@ -1,5 +1,5 @@
 [package]
-authors = ["David Wallace Croft <david@CroftSoft.com>"]
+authors = ["Dallas Rust User Meetup Contributors"]
 description = "Dallas Rust User Meetup website using Dioxus"
 edition = "2021"
 homepage = "https://www.dallasrust.org/"
