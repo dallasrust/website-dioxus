@@ -36,8 +36,8 @@ pub fn Home(cx: Scope) -> Element {
     "The Dallas Rust User Meetup (DRUM) is seeking a location within",
     " the Dallas area for our next face-to-face meeting."
     " We are looking for a site with a laptop projector."
-    " If you would like to host the DRUM, please contact "
-    Link { to: Route::About {}, "us" },
+    " If you would like to host the DRUM, please "
+    Link { to: Route::About {}, "contact us" },
     "."
     }
     }

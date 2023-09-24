@@ -4,11 +4,11 @@ use dioxus::prelude::*;
 pub fn Colophon(cx: Scope) -> Element {
   render! {
     div {
-      class: "box",
+      class: "app-colophon box",
     h1 { "Colophon" }
     ul {
     p {
-      "This website was created using the Rust library ",
+      "This website was created using the Rust-based user interface library ",
       a {
         href: "https://dioxuslabs.com/",
         target: "_blank",
@@ -17,7 +17,8 @@ pub fn Colophon(cx: Scope) -> Element {
       "."
     }
     p {
-      "Images of Ferris the Crab and Corro the Unsafe Rusturchin are from ",
+      "The images of Ferris the Rustacean and "
+      "Corro the Unsafe Rusturchin are from "
       a {
         href: "https://www.rustacean.net/",
         target: "_blank",
@@ -26,12 +27,22 @@ pub fn Colophon(cx: Scope) -> Element {
       "."
     }
     p {
-      "The open source repository for this website is hosted on GitHub:",
-    br { },
+      "The open source repositories for this website are hosted on GitHub:"
+    }
+    ul {
+    li {
     a {
       href: "https://github.com/dallasrust/website-dioxus",
       target: "_blank",
       "https://github.com/dallasrust/website-dioxus"
+    }
+    }
+    li {
+    a {
+      href: "https://github.com/dallasrust/dallasrust.github.io",
+      target: "_blank",
+      "https://github.com/dallasrust/dallasrust.github.io"
+    }
     }
     }
     }
