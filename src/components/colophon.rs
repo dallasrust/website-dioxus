@@ -6,7 +6,6 @@ pub fn Colophon(cx: Scope) -> Element {
     div {
       class: "app-colophon box",
     h1 { "Colophon" }
-    ul {
     p {
       "This website was created using the Rust-based user interface library ",
       a {
@@ -42,7 +41,6 @@ pub fn Colophon(cx: Scope) -> Element {
       href: "https://github.com/dallasrust/dallasrust.github.io",
       target: "_blank",
       "https://github.com/dallasrust/dallasrust.github.io"
-    }
     }
     }
     }
