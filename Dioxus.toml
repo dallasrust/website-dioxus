@@ -12,7 +12,7 @@ reload_html = true
 watch_path = ["src", "assets"]
 
 [web.resource]
-style = ["/stylesheet.css"]
+style = ["/app-nav.css", "/stylesheet.css"]
 script = []
 
 [web.resource.dev]

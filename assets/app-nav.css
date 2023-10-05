@@ -1,0 +1,28 @@
+.app-nav {
+  text-align: center;
+}
+
+.app-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-nav ul li a {
+  border-radius: 2rem;
+  color: #b7410e;
+  display: block;
+  font-size: larger;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.app-nav ul li a:hover {
+  background-color: #b7410e;
+  color: white;
+}
+
+.app-nav ul li a.app-nav-active {
+  border: 2px solid #b7410e;
+}

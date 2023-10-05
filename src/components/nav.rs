@@ -6,26 +6,32 @@ use dioxus_router::prelude::*;
 #[allow(non_snake_case)]
 pub fn Nav(cx: Scope) -> Element {
   render! {
-    div {
-      class: "box",
-    span {
-      class: "drum",
-      "Dallas Rust User Meetup",
-    }
     nav {
+      class: "app-nav box",
+    Animation {}
     ul {
     li {
-      Link { to: Route::Home {}, "Home" }
+    Link {
+      active_class: "app-nav-active",
+      to: Route::Home {},
+      "Home",
+    }
     }
     li {
-      Link { to: Route::About {}, "About" }
+    Link {
+      active_class: "app-nav-active",
+      to: Route::About {},
+      "About",
+    }
     }
     li {
-      Link { to: Route::Colophon {}, "Colophon" }
+    Link {
+      active_class: "app-nav-active",
+      to: Route::Colophon {},
+      "Colophon",
     }
     }
     }
-    Animation { }
     }
   }
 }
