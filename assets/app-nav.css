@@ -9,20 +9,26 @@
 }
 
 .app-nav ul li a {
+  border-color: rgba(183, 65, 14, 0);
   border-radius: 2rem;
+  border-style: solid;
+  border-width: 2px;
   color: #b7410e;
   display: block;
   font-size: larger;
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
   text-decoration: none;
+  transition: background-color 1s, border-color 1s, color 1s;
 }
 
 .app-nav ul li a:hover {
   background-color: #b7410e;
   color: white;
+  transition: background-color 1s, color 1s;
 }
 
 .app-nav ul li a.app-nav-active {
   border: 2px solid #b7410e;
+  transition: background-color 1s, border-color 1s, color 1s;
 }
