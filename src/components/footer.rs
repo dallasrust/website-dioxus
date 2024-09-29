@@ -8,11 +8,11 @@ pub fn Footer(cx: Scope) -> Element {
       text_align: "center",
     p {
       dangerous_inner_html: "&copy;",
-      " 2023 "
+      " 2023-2024 "
       a {
         href: "https://github.com/dallasrust/website-dioxus",
         target: "_blank",
-        "Dallas Rust User Meetup Contributors"
+        "DRUM Contributors"
       }
     }
     img {
