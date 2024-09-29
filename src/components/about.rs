@@ -43,36 +43,6 @@ pub fn About(cx: Scope) -> Element {
       }
       " server meetings."
     }
-    p {
-      span {
-        font_weight: "bold",
-        "Employers and Recruiters"
-      }
-      ": If you have a Rust job based in the Dallas area, "
-      "we invite you to post the job description "
-      "on our Meetup website message board forum "
-      a {
-        href: "https://www.meetup.com/dallasrust/messages/boards/forum/38878463",
-        target: "_blank",
-        "Dallas Rust Jobs"
-      }
-      "."
-    }
-    p {
-      span {
-        font_weight: "bold",
-        "Job Seekers"
-      }
-      ": If you are looking for a Rust job in the Dallas area, "
-      "please feel free to post your résumé "
-      "on our Meetup website message board forum "
-      a {
-        href: "https://www.meetup.com/dallasrust/messages/boards/forum/38878467",
-        target: "_blank",
-        "Dallas Rust Résumés",
-      }
-      "."
-    }
     h2 {
       "Contact"
     }

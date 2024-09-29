@@ -10,7 +10,7 @@ pub fn Animation(cx: Scope) -> Element {
       onmouseenter: move |_event| transform(scale_x_state),
       onmouseout: move |_event| transform(scale_x_state),
       onwheel: move |_event| transform(scale_x_state),
-      src: "/rustacean-flat-gesture.svg",
+      src: "/drummer.svg",
       transform: "scaleX({scale_x_state})",
     }
   }
