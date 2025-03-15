@@ -1,8 +1,8 @@
 use dioxus::prelude::*;
 
 #[allow(non_snake_case)]
-pub fn About(cx: Scope) -> Element {
-  render! {
+pub fn About() -> Element {
+  rsx! {
     div {
       class: "box",
     h1 {

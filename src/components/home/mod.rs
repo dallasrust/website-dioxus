@@ -3,8 +3,10 @@ use dioxus::prelude::*;
 use dioxus_router::prelude::Link;
 
 #[allow(non_snake_case)]
-pub fn Home(cx: Scope) -> Element {
-  render! {
+pub fn Home() -> Element {
+  static FERRIS: Asset = asset!("/assets/home/rustacean-flat-happy.svg");
+
+  rsx! {
     div {
       class: "app-home box",
     h1 {
@@ -20,7 +22,7 @@ pub fn Home(cx: Scope) -> Element {
       href: "https://www.meetup.com/dallasrust/",
       target: "_blank",
     img {
-      src: "/rustacean-flat-happy.svg",
+      src: FERRIS,
     }
     }
     }

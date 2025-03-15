@@ -1,11 +1,15 @@
 use crate::components::animation::Animation;
 use crate::route::Route;
-use dioxus::prelude::*;
-use dioxus_router::prelude::*;
+use ::dioxus::prelude::*;
 
 #[allow(non_snake_case)]
-pub fn Nav(cx: Scope) -> Element {
-  render! {
+pub fn Nav() -> Element {
+  static CSS: Asset = asset!("/assets/nav/nav.css");
+
+  rsx! {
+    document::Stylesheet {
+      href: CSS
+    }
     nav {
       class: "app-nav box",
     Animation {}

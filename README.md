@@ -21,54 +21,41 @@
   - npm can be installed by installing node.js
   - https://nodejs.org/
 
-## Hot Reload
+## Quick Start
 
-- cd website-dioxus/
 - npm install
-  - Installs the utility http-server to serve the HTML
-  - Installs the utility pretter to format the HTML
-  - Installs the utility rimraf to remove distribution directory dist/
-- npm start
-- Open your browser to http://localhost:8080/
-- Make changes to the HTML in src/lib.rs or the CSS in public/stylesheet.css
-- Note that the changes are updated in your browser as soon as you save
-
-## Test Static Prerendering with Hydration
-
 - npm test
-  - Deletes the distribution directory dist/ to remove files from a previous run
-  - Makes the index.html page with the hydration code
-  - Inserts the prerendered HTML
-  - Formats the HTML using the prettier utility
-  - Launches http-server to serve the HTML
-  - Opens your browser to the home page
 
-## Other Commands
+## npm scripts
 
+- npm start
+  - Used during development
+  - Builds, watches, and serves with hot reloading
+  - Automatically opens a browser window
 - npm run clean
-  - Deletes the distribution directory dist/ to remove files from a previous run
+  - Deletes the build output and distribution directories
+- npm run build
+  - Builds a release version with static site generation (SSG)
+- npm run merge
+  - Makes the distribution directory dist/
+  - Merges the release build into dist/
+  - Merges the generated SSG files into dist/
+  - Merges the static files in merge/ into dist/
 - npm run dist
-  - Same as npm test
-  - Except that it does not start http-server and open the browser
-- npm run format
-  - Runs the utility prettier
-- npm run hydrate
-  - Makes the index.html page with the hydration code
-- npm run prerender
-  - Inserts the prerendered HTML
-- npm run make
-  - Makes the index.html page with the hydration code
-  - Inserts the prerendered HTML
-  - Runs the utility prettier
-  - But does not start by deleting dist/
+  - Runs the clean, build, and merge scripts
+  - Used to generate an SSG distribution in the dist/ directory
+  - The dist/ files can be hosted on a Content Delivery Network (CDN)
 - npm run serve
-  - Starts the http-server
-  - Opens the browser
-
-## TODO
-
-- Restore the prettier configuration
+  - Serves the files in the distribution directory dist/
+  - Automatically opens a browser window
+- npm test
+  - Runs the dist and serve scripts
+  - Used to test the SSG distribution prior to hosting on a CDN
+- npm run format
+  - Runs the "prettier" utility to format the generated HTML files
+  - Useful for analyzing or debugging the generated HTML files
 
 ## History
 
-- Project launch: 2023-08-12
+- 2023-08-12: Project launch
+- 2025-03-15: Updated from Dioxus v0.4 to v0.6

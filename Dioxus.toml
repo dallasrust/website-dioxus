@@ -1,8 +1,24 @@
 [application]
 asset_dir = "assets"
 default_platform = "web"
-name = "dioxus_website"
+name = "website-dioxus"
 out_dir = "dist"
+
+[application.plugins]
+available = true
+required = []
+
+[bundler]
+category = "Utility"
+copyright = "Copyright 2023-2025 Dallas Rust User Meetup Contributors"
+icon = ["icons/icon.png"]
+identifier = "org.dallasrust.app.website-dioxus"
+long_description = """
+Dallas Rust User Meetup Website Dioxus
+"""
+publisher = "website-dioxus"
+resources = ["assets/*"]
+short_description = "Dallas Rust User Meetup Website Dioxus"
 
 [web.app]
 title = "Dallas Rust User Meetup"
@@ -12,9 +28,8 @@ reload_html = true
 watch_path = ["src", "assets"]
 
 [web.resource]
-style = ["/app-nav.css", "/stylesheet.css"]
 script = []
+style = []
 
 [web.resource.dev]
 script = []
-style = []

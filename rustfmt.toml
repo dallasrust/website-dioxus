@@ -1,17 +1,20 @@
-# Formatting configuration for the Dallas Rust User Meetup website using Dioxus
 # https://rust-lang.github.io/rustfmt/
-#
-# Copyright 2023 Dallas Rust User Meetup Contributors
-# https://www.DallasRust.org/
-# Created: 2023-08-12
-# Updated: 2023-08-12
-
+# https://github.com/rust-lang/rustfmt
 array_width = 1
+attr_fn_like_width = 1
+# brace_style = "AlwaysNextLine"
+chain_width = 60
 # condense_wildcard_suffixes = true
+disable_all_formatting = false
+edition = "2021"
+fn_call_width = 60
 fn_params_layout = "Vertical"
+force_explicit_abi = true
+# force_multiline_blocks = false
 # group_imports = "StdExternalCrate"
 hard_tabs = false
 # imports_layout = "HorizontalVertical"
+match_arm_leading_pipes = "Never"
 match_block_trailing_comma = true
 # https://www.w3.org/WAI/tutorials/page-structure/styling/#line-length
 max_width = 80
@@ -19,12 +22,17 @@ merge_derives = true
 newline_style = "Unix"
 # normalize_comments = true
 remove_nested_parens = true
+reorder_imports = true
+reorder_modules = true
+short_array_element_width_threshold = 10
 single_line_if_else_max_width = 0
-# single_line_let_else_max_width = 0
+single_line_let_else_max_width = 0
 struct_lit_width = 0
 struct_variant_width = 0
+style_edition = "2024"
 tab_spaces = 2
 use_field_init_shorthand = true
+use_small_heuristics = "Default"
 use_try_shorthand = true
 # version = "Two"
 # wrap_comments = true
