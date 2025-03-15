@@ -10,7 +10,7 @@ publish = false
 readme = "README.md"
 repository = "https://github.com/dallasrust/website-dioxus"
 rust-version = "1.85.0"
-version = "0.6.3"
+version = "0.6.4-SNAPSHOT"
 
 [dependencies]
 dioxus = { version = "0.6.3", features = ["fullstack", "router"] }

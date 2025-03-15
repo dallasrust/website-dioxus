@@ -1646,7 +1646,7 @@ dependencies = [
 
 [[package]]
 name = "website-dioxus"
-version = "0.6.3"
+version = "0.6.4-SNAPSHOT"
 dependencies = [
  "dioxus",
  "serde",
