@@ -1,0 +1,2 @@
+This website was created using the Rust-based frontend framework Dioxus:
+https://dioxuslabs.com/
