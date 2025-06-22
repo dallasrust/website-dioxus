@@ -10,15 +10,17 @@ pub fn Benefits() -> Element {
     }
     p {
       text_align: "justify",
+    "Dallas Rust User Meetup Members (DRUMMers) can get 45% off of Manning "
+    "books by using the discount code: "
     span {
       font_weight: "bold",
-    "Dallas Rust User Meetup Members"
+    "DallasRust45"
     }
-    " (DRUMMers) can get a discount from Manning Publishing by using the "
+    ".  Please use this affiliate link when you order from the "
     a {
-      href: "https://www.manning.com/?utm_source=dallasrust&utm_medium=affiliate&utm_campaign=affiliate&a_aid=dallasrust",
+      href: "https://mng.bz/gmY8",
       target: "_blank",
-      "Dallas Rust affiliate link",
+      "Manning website",
     }
     ".",
     }
