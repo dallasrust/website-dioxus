@@ -1,6 +1,7 @@
 pub mod about;
 pub mod animation;
 pub mod app;
+pub mod benefits;
 pub mod colophon;
 pub mod footer;
 pub mod home;

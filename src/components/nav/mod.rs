@@ -18,21 +18,28 @@ pub fn Nav() -> Element {
     Link {
       active_class: "app-nav-active",
       to: Route::Home {},
-      "Home",
+    "Home",
     }
     }
     li {
     Link {
       active_class: "app-nav-active",
       to: Route::About {},
-      "About",
+    "About",
+    }
+    }
+    li {
+    Link {
+      active_class: "app-nav-active",
+      to: Route::Benefits {},
+    "Benefits",
     }
     }
     li {
     Link {
       active_class: "app-nav-active",
       to: Route::Colophon {},
-      "Colophon",
+    "Colophon",
     }
     }
     }
