@@ -14,7 +14,7 @@ pub fn Home() -> Element {
       "Dallas Rust User Meetup"
     }
     h2 {
-      "Safe, Secure, Sustainable"
+      "Safe :: Secure :: Sustainable"
     }
     a {
       href: "https://www.meetup.com/dallasrust/",
