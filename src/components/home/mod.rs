@@ -3,6 +3,7 @@ use dioxus::prelude::*;
 use dioxus_router::prelude::Link;
 
 #[allow(non_snake_case)]
+#[rustfmt::skip]
 pub fn Home() -> Element {
   static FERRIS: Asset = asset!("/assets/home/rustacean-flat-happy.svg");
 
@@ -11,6 +12,9 @@ pub fn Home() -> Element {
       class: "app-home box",
     h1 {
       "Dallas Rust User Meetup"
+    }
+    h2 {
+      "Safe, Secure, Sustainable"
     }
     a {
       href: "https://www.meetup.com/dallasrust/",
